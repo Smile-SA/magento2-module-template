@@ -30,7 +30,10 @@
             "magento/composer-dependency-version-audit-plugin": true,
             "dealerdirect/phpcodesniffer-composer-installer": true
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "audit": {
+            "abandoned": "report"
+        }
     },
     "repositories": [
         {
